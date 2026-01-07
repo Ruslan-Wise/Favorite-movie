@@ -1,0 +1,38 @@
+body {
+  background-color: #6ecfc5;
+  font-family: "Aladin", system-ui;
+  font-size: 22px;
+}
+
+#box {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(6, 219, 234);
+  padding: 10px;
+}
+
+#title {
+  color: rgb(206, 10, 10);
+}
+
+.section-title {
+  color: #050475;
+}
+
+.text-annot {
+  font-size: 22px;
+}
+
+.movie-info {
+  list-style-type: none;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 15px;
+  margin: 5px;
+}
