@@ -29,10 +29,44 @@ body {
 }
 
 .buttons {
+  text-align: center;
   margin-top: 20px;
 }
 
-.btn {
-  padding: 10px 15px;
-  margin: 5px;
+.bts {
+  display: inline-block;
+
+  font-family: "Aladin", system-ui;
+  font-size: 18px;
+
+  padding: 5px 15px;
+  margin: 15px;
+
+  background-color: #d80d0d;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 15px;
+
+  transition: 0.5s;
+}
+
+.bts:hover {
+  background-color: #049217;
+}
+
+.bts:active {
+  transform: scale(0.95);
+}
+
+.gallery {
+  text-align: center;
+}
+
+.img-gallery {
+   width: 260px;
+  height: auto;
+  object-fit: cover;
+  margin: 1px;
+  border-radius: 100px;
 }
